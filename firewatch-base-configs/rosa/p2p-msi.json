@@ -11,6 +11,7 @@
     {"step": "rosa-sts-account-roles-delete", "failure_type": "all", "classification": "Account Roles Deletion - AWS", "group": {"name": "cluster", "priority": 3}, "jira_additional_labels": ["!default"]},
     {"step": "rosa-conf-idp-htpasswd", "failure_type": "all", "classification": "Admin Access - Cluster", "group": {"name": "cluster", "priority": 2}, "jira_additional_labels": ["!default"]},
     {"step": "gather-*", "failure_type": "pod_failure", "classification": "Other", "group": {"name": "cluster", "priority": 2}, "jira_additional_labels": ["!default"]},
-    {"step": "gather-*", "failure_type": "test_failure", "classification": "NONE", "jira_project": "NONE", "ignore": "true"}
+    {"step": "gather-*", "failure_type": "test_failure", "classification": "NONE", "jira_project": "NONE", "ignore": "true"},
+    {"step": "operator-install*", "failure_type": "all", "classification": "Infrastructure Provisioning - Operators", "group": {"name": "p2p-tests", "priority": 1}, "jira_additional_labels": ["!default"]}
   ]
 }
