@@ -22,5 +22,9 @@
       {"step": "openshift-extended-test", "failure_type": "pod_failure", "classification": "OCP Observability failure", "jira_project": "!default", "jira_component": ["!default"], "group": {"name": "opp-tests", "priority": 5, "jira_epic": "!default", "jira_assignee": "!default"}},
       {"step": "acm-must-gather", "failure_type": "pod_failure", "classification": "ACM must-gather failure", "group": {"name": "opp-tests", "priority": 2}},
       {"step": "acm-inspector", "failure_type": "pod_failure", "classification": "ACM Inspector failure", "group": {"name": "opp-tests", "priority": 2}}
+    ],
+  "success_rules":
+    [
+      {"jira_project": "CSPIT", "jira_additional_labels": ["!default"]}
     ]
 }
