@@ -1,9 +1,9 @@
 ---
-FIREWATCH_CONFIG_FILE_PATH: https://raw.githubusercontent.com/CSPI-QE/cspi-utils/main/firewatch-base-configs/aws-ipi/lp-interop.json
-FIREWATCH_DEFAULT_JIRA_ADDITIONAL_LABELS: '["4.19-lp","self-managed-lp"]'
-FIREWATCH_DEFAULT_JIRA_PROJECT: LPINTEROP
-FIREWATCH_FAIL_WITH_TEST_FAILURES: "true"
-transition_map:
+DEFAULT_JIRA_ADDITIONAL_LABELS: '["4.19-lp","self-managed-lp"]'
+DEFAULT_JIRA_PROJECT: LPINTEROP
+rules_config_path: https://raw.githubusercontent.com/CSPI-QE/cspi-utils/main/firewatch-base-configs/aws-ipi/lp-interop.json
+fail_with_test_failure: "true"
+jira_transition_map:
   LPINTEROP: PASS
   CSPIT: PASS
   OCSQE: DONE
