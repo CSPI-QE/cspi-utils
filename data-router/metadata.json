@@ -2,7 +2,7 @@
     "targets": {
         "reportportal": {
             "config": {
-                "hostname": "https://reportportal-lp-interop.apps.dno.ocp-hub.prod.psi.redhat.com/",
+                "hostname": "reportportal-lp-interop.apps.dno.ocp-hub.prod.psi.redhat.com",
                 "project": "lp-interop-dr_personal"
             },
             "processing": {
