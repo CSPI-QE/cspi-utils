@@ -2,6 +2,6 @@
   "failure_rules":
   [
     {"step": "mpiit-*", "failure_type": "all", "classification": "DataRouter Reporting", "group": {"name": "reporting", "priority": 1}, "jira_project": "LPINTEROP", "jira_additional_labels": ["!default", "DR-reporting"]},
-    {"step": "*", "failure_type": "all", "ignore": "true"}
+    {"step": "*", "failure_type": "all", "ignore": "true", "classification": "NONE", "jira_project": "NONE"}
   ]
 }
