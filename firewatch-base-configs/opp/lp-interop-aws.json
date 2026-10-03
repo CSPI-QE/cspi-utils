@@ -36,6 +36,7 @@
       {"step": "interop-opp-product-upgrade-acs", "failure_type": "pod_failure", "classification": "HARNESS_FAILURE", "jira_project": "ROX", "group": {"name": "opp-tests", "priority": 5}, "jira_epic": "!default", "jira_additional_labels": ["!default"]},
       {"step": "interop-opp-product-upgrade-odf", "failure_type": "pod_failure", "classification": "HARNESS_FAILURE", "jira_project": "RHSTOR", "group": {"name": "opp-tests", "priority": 5}, "jira_epic": "!default", "jira_additional_labels": ["!default"]},
       {"step": "interop-opp-product-upgrade-quay", "failure_type": "pod_failure", "classification": "HARNESS_FAILURE", "jira_project": "PROJQUAY", "group": {"name": "opp-tests", "priority": 5}, "jira_epic": "!default", "jira_additional_labels": ["!default"]},
+      {"step": "interop-opp-product-upgrade-acm", "failure_type": "test_failure", "classification": "ACM upgrade target unavailable", "jira_project": "!default", "group": {"name": "opp-tests", "priority": 5}, "jira_epic": "!default", "jira_additional_labels": ["!default"], "jira_component": ["OPP_ACM"]},
       {"step": "openshift-extended-test", "failure_type": "all", "classification": "OCP Observability failure", "jira_project": "!default", "group": {"name": "opp-tests", "priority": 5}, "jira_epic": "!default", "jira_assignee": "tagao@redhat.com", "jira_additional_labels": ["!default"], "jira_component": ["OPP_OCP"]}
     ],
   "success_rules":
